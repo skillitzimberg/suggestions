@@ -27,7 +27,7 @@ You can view the project code at: [GutHub](https://github.com/skillitzimberg/sug
 - [] including only necessary comments and debugging tools.
 
 ##### Commits
-- [x] made regularly
+- [meh] made regularly
 - [x] clear messages that finish the phrase "It will…"
 
 ##### The project repo contains a README that includes:
@@ -42,7 +42,7 @@ You can view the project code at: [GutHub](https://github.com/skillitzimberg/sug
 - [] Site is successfully deployed to GitHub pages.
 - [] Project is in a polished, portfolio-quality state.
 - [] Required content was in place by the Friday deadline.
-- [] Project demonstrates an understanding of this week's concepts.
+- [hard to tell] Project demonstrates an understanding of this week's concepts.
 
 
 ##### Bootstrap classes are used to style the page:
