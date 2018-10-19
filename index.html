@@ -16,78 +16,81 @@
       <p>This site may help you think about what you want and narrow down the unbelievable number of options there are. Take this short-ish survey and we'll give you some opportunities to explore further.</p>
 
       <form class="" id="survey">
-        <div class="">
-          <h3>Would you even like coding?</h3>
-          <p>Sometimes your day-to-day habits might give you a clue as to whether you might be a good fit for programming work. Tell us if these habits/proclivities sound like you.</p>
-          <p>What do you do in your down time? What do you read? What kind of games do you play?</p>
-            <div class="form-group">
-              <p>Is this you?</p>
-              <select class="form-control" id="habits">
-                <option value="">Choose a topic</option>
-                <option value="bored">I'm bored</option>
-                <option value="fastidious">That picture is crooked.</option>
-                <option value="cheerios">I have Cheerios in my hair.</option>
-                <option value="broken">Yay! It's broken. How do I fix it?</option>
-                <option value="focused">My mind is like a lazer.</option>
-              </select>
-            </div>
-
-        </div>
-
-        <div class="" id="interests">
-          <h3>What kinds of things already interest you?</h3>
-          <p>It's often a good idea to make choices based the things you already gravitate toward. Having work that matches what you tend to do when you're not at work can make work not work. Or at least make it easier to get through those days, weeks, maybe months (dear god, please not years!) when work is work.</p>
-
-          <p>What do you do in your down time? What do you read? What kind of games do you play?</p>
-            <div class="form-group">
-              <p>What is your favorite topic?</p>
-              <select class="form-control" id="topic">
-                <option value="">Choose a topic</option>
-                <option value="math">math</option>
-                <option value="botany">botany</option>
-                <option value="tech">technology</option>
-                <option value="engineering">Engineering Today</option>
-                <option value="monkeys">Monkeys</option>
-              </select>
-            </div>
-        </div>
-
-      <div class="" id="goals">
-        <h3>What are you looking for in a career?</h3>
-        <p>Sometime the place you envision yourself working can give you some hints as to which langauge/framework to choose. When you day dream about your future work where do you see yourself?</p>
+        <h3>How do you want to use it?</h3>
+        <p>What do you most want to build?</p>
 
         <div class="form-group">
-          <p>What size company would you like to work for?</p>
+          <select class="form-control" id="field">
+            <option value=""></option>
+            <option value="web">Websites</option>
+            <option value="games">Video Games</option>
+            <option value="mobile">Mobile apps</option>
+            <option value="data">Data Analysis</option>
+            <option value="3d">3D Graphics</option>
+          </select>
+        </div>
+
+        <h3>How important is a languages popularity to you?</h3>
+        <p>Popularity Question?</p>
+        <div class="form-group">
+          <select class="form-control" id="popularity">
+            <option value=""></option>
+            <option value="veryPopular">Popular is important</option>
+            <option value="dontCareAboutPopularity">I don't care much</option>
+          </select>
+        </div>
+
+        <h3>What platform are you most interested in?</h3>
+        <p>Platform Question?</p>
+        <div class="form-group">
+          <select class="form-control" id="platform">
+            <option value=""></option>
+            <option value="android">Android</option>
+            <option value="ios">iOs</option>
+            <option value="microsoft">Microsoft</option>
+            <option value="stuff">platformStuff</option>
+            <option value="things">platformThings</option>
+          </select>
+        </div>
+
+        <h3>What are you looking for in a career?</h3>
+        <p>What kind of company would you like to work for?</p>
+
+        <div class="form-group">
           <select class="form-control" id="business">
-            <option value="">Pick a size</option>
+            <option value=""></option>
             <option value="small">Small businesses</option>
-            <option value="medium">Medium sized businesses.</option>
+            <option value="medium">Medium sized businesses</option>
             <option value="large">Big corporations</option>
             <option value="startups">Startups</option>
             <option value="freelance">Myself</option>
           </select>
         </div>
 
-        <!-- USER GOALS:
-        What kind of businesses do you think you might want to work for?
-        - small
-        - medium
-        - large
-        - startups
-        - freelance -->
-      </div>
-      <button type="submit" class="btn btn-success">Enter Topic Choices</button>
-    </form>
+        <h3>The most important question</h3>
+        <p>What is your favorite fruit?</p>
+        <div class="form-group">
+          <select class="form-control" id="fruit">
+            <option value=""></option>
+            <option value="apple">Apples</option>
+            <option value="banana">Bananas</option>
+            <option value="goji">Goji</option>
+            <option value="persimmon">Persimmon</option>
+            <option value="golfball">Golfballs</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Enter Topic Choices</button>
+      </form>
 
       <div class="" id="choices">
-        <h3 id="cSharp">C#</h3>
-        <h3 id="java">Java</h3>
-        <h3 id="php">PHP</h3>
-        <h3 id="ruby">Ruby</h3>
-        <h3 id="css">CSS</h3>
-        <h3 id="webdesign">WEB DESIGN</h3>
+        <h3 id="cSharp" class="hide">C#/.NET</h3>
+        <h3 id="java" class="hide">Java/Android</h3>
+        <h3 id="php" class="hide">PHP/Drupal</h3>
+        <h3 id="ruby" class="hide">Ruby/Rails</h3>
+        <h3 id="css" class="hide">CSS/Design</h3>
+        <h3 id="fail" class="hide">Please fill out the form completely.</h3>
       </div>
-
 
     </div>
   </body>
