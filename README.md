@@ -14,11 +14,11 @@ You can view the project code at: [GutHub](https://github.com/skillitzimberg/sug
 
 ## Objectives
 #### The project meets the following criteria:
-- [] Include a minimum of 5 survey questions.
-- [] Offer a minimum of 3 different track suggestions (you are not required to include every track).
-- [] Site uses branching to return the result.
-- [] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
-- [] Form gathers input from the user.
+- [x] Include a minimum of 5 survey questions.
+- [x] Offer a minimum of 3 different track suggestions (you are not required to include every track).
+- [x] Site uses branching to return the result.
+- [x] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
+- [x] Form gathers input from the user.
 - [] Variable names are descriptive of what they represent.
 
 ##### Code is clean, well-refactored, and easy-to-read:
@@ -27,8 +27,8 @@ You can view the project code at: [GutHub](https://github.com/skillitzimberg/sug
 - [] including only necessary comments and debugging tools.
 
 ##### Commits
-- [] made regularly
-- [] clear messages that finish the phrase "It will…"
+- [x] made regularly
+- [x] clear messages that finish the phrase "It will…"
 
 ##### The project repo contains a README that includes:
 - [x] author name
