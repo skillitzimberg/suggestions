@@ -5,16 +5,17 @@ $(document).ready(function() {
     var targetPlatform = $("#platform").val();
     var bizSize = $("#business").val();
     var favFruit = $("#fruit").val();
-
+    var suggestion;
+    
     console.log(devField);
     console.log(langaugePopularity);
     console.log(targetPlatform);
     console.log(bizSize);
     console.log(favFruit);
-
+    debugger;
     if (devField && langaugePopularity && targetPlatform && bizSize && favFruit) {
 
-      if (devField === "web" && targetPlatform === "ios" || bizSize === freelance && favFruit === golfball) {
+      if (devField === "web" && targetPlatform === "ios" || bizSize === "freelance" && favFruit === "golfball") {
         $("h2#suggest").removeClass("hide");
         $("h3#ruby").removeClass("hide");
         $("h3#css").removeClass("hide");
@@ -23,21 +24,23 @@ $(document).ready(function() {
         $("h3#cSharp").removeClass("hide");
       } else if (favFruit === "goji" || langaugePopularity === "dontCareAboutPopularity") {
         $("h2#suggest").removeClass("hide");
-        $("h3#php").removeClass("hide");
         $("h3#java").removeClass("hide");
-      } else if (devField === android && bizSize === medium) {
+        $("h3#php").removeClass("hide");
+      } else if (devField === "android" && bizSize === "medium") {
         $("h2#suggest").removeClass("hide");
         $("h3#java").removeClass("hide");
       } else {
-        $("h2#suggest").removeClass("hide");
+        $("#listAll").removeClass("hide");
+        $("h3#cSharp").removeClass("hide");
+        $("h3#java").removeClass("hide");
+        $("h3#php").removeClass("hide");
         $("h3#ruby").removeClass("hide");
+        $("h3#css").removeClass("hide");
       }
 
     } else {
       $("h3#fail").removeClass("hide");
     }
-
-    // $('form#survey').trigger("reset");
 
     event.preventDefault();
   });
