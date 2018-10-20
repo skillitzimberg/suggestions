@@ -2,6 +2,7 @@
 <html>
   <head>
     <script type="text/javascript" src="js/jQuery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -77,14 +78,32 @@
         <div class="col-lg-9">
         <div class="" id="choices">
           <img src="img/freelance.jpg" alt="A laptop on a rustic outdoor table">
-            <h2 id="suggest" class="hide">We suggest that you look further into these langauges:</h2>
-            <h2 id="listAll" class="hide">The world is your oyster! Do it all!</h2>
-            <h3 id="cSharp" class="hide"><a href="https://www.epicodus.com/c-sharp">C#/.NET</a></h3>
-            <h3 id="java" class="hide"><a href="https://www.epicodus.com/java">Java/Android</a></h3>
-            <h3 id="php" class="hide"><a href="https://www.epicodus.com/php">PHP/Drupal</a></h3>
-            <h3 id="ruby" class="hide"><a href="https://www.epicodus.com/ruby">Ruby/Rails</a></h3>
-            <h3 id="css" class="hide"><a href="https://www.epicodus.com/css">CSS</a> & <a href="https://www.epicodus.com/design">Design</a></h3>
-            <h3 id="fail" class="hide">Please fill out the form completely.</h3>
+          </div>
+        </div>
+
+        <div class="modal" tabindex="-1" role="dialog" id="myModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 id="suggest" class="hide">We suggest that you look further into these langauges:</h2>
+                <h2 id="listAll" class="hide">The world is your oyster! Do it all!</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <h3 id="cSharp" class="hide"><a href="https://www.epicodus.com/c-sharp">C#/.NET</a></h3>
+                <h3 id="java" class="hide"><a href="https://www.epicodus.com/java">Java/Android</a></h3>
+                <h3 id="php" class="hide"><a href="https://www.epicodus.com/php">PHP/Drupal</a></h3>
+                <h3 id="ruby" class="hide"><a href="https://www.epicodus.com/ruby">Ruby/Rails</a></h3>
+                <h3 id="css" class="hide"><a href="https://www.epicodus.com/css">CSS</a> & <a href="https://www.epicodus.com/design">Design</a></h3>
+                <h3 id="fail" class="hide">Please fill out the form completely.</h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
           </div>
         </div>
 

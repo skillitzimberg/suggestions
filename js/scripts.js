@@ -45,5 +45,7 @@ $(document).ready(function() {
       $("h3#fail").removeClass("hide");
     }
 
+    $('#myModal').modal();
+
   });
 });
