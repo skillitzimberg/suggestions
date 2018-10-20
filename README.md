@@ -51,6 +51,8 @@ You can view the project code at: [GutHub](https://github.com/skillitzimberg/sug
 ## Known Bugs
 I believe it is working as requested. However, it is very clunky code. Duct tape and superglue version.
 
+Modal display is not working on gh-pages. All know dependencies are present. Cause unknown at the moment.
+
 ## Support and contact details
 
 Contact the author at [commandinghands@gmail.com](mailto:commandinghands@gmail.com).
