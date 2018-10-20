@@ -10,7 +10,7 @@ This project makes suggestions to a user regarding what Epicodus language/framew
 ## Setup/Installation Requirements:
 To view the project online go to: [GitHub Pages](https://skillitzimberg.github.io/suggestions).
 
-You can view the project code at: [GutHub](https://github.com/skillitzimberg/suggestions).
+You can view the project code at: [GitHub](https://github.com/skillitzimberg/suggestions).
 
 ## Objectives
 #### The project meets the following criteria:
