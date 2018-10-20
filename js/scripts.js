@@ -1,5 +1,12 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
+    $("h2#suggest").addClass("hide");
+    $("h2#listAll").addClass("hide");
+    $("h3#cSharp").addClass("hide");
+    $("h3#java").addClass("hide");
+    $("h3#php").addClass("hide");
+    $("h3#ruby").addClass("hide");
+    $("h3#css").addClass("hide");
 
     var devField = $("#field").val();
     var langaugePopularity = $("#popularity").val();
@@ -25,9 +32,7 @@ $(document).ready(function() {
     console.log(suggestion);
     console.log(allOptions);
 
-
     if (devField && langaugePopularity && targetPlatform && bizSize && favFruit) {
-      debugger;
       if (devField === "web" && targetPlatform === "ios" || bizSize === "freelance" && favFruit === "golfball") {
         $("h2#suggest").removeClass("hide");
         $("h3#ruby").removeClass("hide");
@@ -54,7 +59,6 @@ $(document).ready(function() {
     } else {
       $("h3#fail").removeClass("hide");
     }
-    $("form#survey").reset();
 
     event.preventDefault();
   });
