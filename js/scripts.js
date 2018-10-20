@@ -1,5 +1,7 @@
 $(document).ready(function() {
   $("form#survey").submit(function(event) {
+    event.preventDefault();
+
     $("h2#suggest").addClass("hide");
     $("h2#listAll").addClass("hide");
     $("h3#cSharp").addClass("hide");
@@ -7,30 +9,13 @@ $(document).ready(function() {
     $("h3#php").addClass("hide");
     $("h3#ruby").addClass("hide");
     $("h3#css").addClass("hide");
+    $("h3#fail").addClass("hide");
 
     var devField = $("#field").val();
     var langaugePopularity = $("#popularity").val();
     var targetPlatform = $("#platform").val();
     var bizSize = $("#business").val();
     var favFruit = $("#fruit").val();
-
-    var cSharp = "C#/.NET";
-    var java = "Java/Android";
-    var php = "PHP/Drupal";
-    var ruby = "Ruby/Rails";
-    var css = "CSS/Design";
-
-    var suggestion = "We suggest that you look further into these langauges:";
-    var allOptions = "The world is your oyster! Do it all!";
-    var fail = "Please fill out the form completely.";
-
-    console.log(devField);
-    console.log(langaugePopularity);
-    console.log(targetPlatform);
-    console.log(bizSize);
-    console.log(favFruit);
-    console.log(suggestion);
-    console.log(allOptions);
 
     if (devField && langaugePopularity && targetPlatform && bizSize && favFruit) {
       if (devField === "web" && targetPlatform === "ios" || bizSize === "freelance" && favFruit === "golfball") {
@@ -60,6 +45,5 @@ $(document).ready(function() {
       $("h3#fail").removeClass("hide");
     }
 
-    event.preventDefault();
   });
 });

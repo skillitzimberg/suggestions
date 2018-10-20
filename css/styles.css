@@ -1,3 +1,25 @@
+body {
+  margin: 1em 2em 1em;
+  font-size: 20px;
+}
+
+#intro {
+  width: 70%;
+  text-align: justify;
+}
+
+#intro h1 {
+  margin-bottom: 1em;
+}
+
+#choices {
+  margin-left: 1em;
+}
+
+img {
+  border: 2px solid #333;
+  /* margin-left: 1em; */
+}
 
 .hide {
   display: none;
