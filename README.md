@@ -19,12 +19,12 @@ You can view the project code at: [GutHub](https://github.com/skillitzimberg/sug
 - [x] Site uses branching to return the result.
 - [x] jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
 - [x] Form gathers input from the user.
-- [] Variable names are descriptive of what they represent.
+- [x] Variable names are descriptive of what they represent.
 
 ##### Code is clean, well-refactored, and easy-to-read:
-- [] correct indentation
-- [] spacing
-- [] including only necessary comments and debugging tools.
+- [x] correct indentation
+- [x] spacing
+- [x] including only necessary comments and debugging tools.
 
 ##### Commits
 - [meh] made regularly
@@ -39,23 +39,17 @@ You can view the project code at: [GutHub](https://github.com/skillitzimberg/sug
 - [x] copyright and license information
 
 ##### Follows submission guidelines
-- [] Site is successfully deployed to GitHub pages.
-- [] Project is in a polished, portfolio-quality state.
-- [] Required content was in place by the Friday deadline.
+- [x] Site is successfully deployed to GitHub pages.
+- [no] Project is in a polished, portfolio-quality state.
+- [close?] Required content was in place by the Friday deadline.
 - [hard to tell] Project demonstrates an understanding of this week's concepts.
 
 
 ##### Bootstrap classes are used to style the page:
-- [] This means explicitly using classes mentioned on this page, not just linking in the Bootstrap stylesheet;
-
-##### Project includes a custom-made stylesheet:
-- [] typography styles
-- [] cascading
-- [] the box model
-- [] floats
+- [x] This means explicitly using classes mentioned on this page, not just linking in the Bootstrap stylesheet;
 
 ## Known Bugs
-
+I believe it is working as requested. However, it is very clunky code. Duct tape and superglue version.
 
 ## Support and contact details
 
