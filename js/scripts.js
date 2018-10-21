@@ -2,6 +2,8 @@ $(document).ready(function() {
   $("form#survey").submit(function(event) {
     event.preventDefault();
 
+    
+
     $("h3#suggest").addClass("hide");
     $("h3#listAll").addClass("hide");
     $("h4#cSharp").addClass("hide");
