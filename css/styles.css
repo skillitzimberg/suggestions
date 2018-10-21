@@ -29,3 +29,7 @@ img {
   width: 100%;
   margin: 0 auto 1.5em;
 }
+
+.modal h4 {
+  text-align: center;
+}
