@@ -33,7 +33,7 @@ $(document).ready(function() {
         $("h3#suggest").removeClass("hide");
         $("h4#java").removeClass("hide");
       } else {
-        $("#listAll").removeClass("hide");
+        $("h3#listAll").removeClass("hide");
         $("h4#cSharp").removeClass("hide");
         $("h4#java").removeClass("hide");
         $("h4#php").removeClass("hide");
